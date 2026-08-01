@@ -1,0 +1,47 @@
+# print("Soal nomor 1")
+# gaji = int(input("Masukkan gaji anda : "))
+# jam_kerja = int(input("Masukkan jam kerja anda : "))
+
+# tunjangan = gaji * 10/100
+# gaji_lembur = 30000
+
+# if jam_kerja > 40:
+#     hasil_lembur = (jam_kerja - 40 ) * gaji_lembur
+#     total_gaji = gaji + tunjangan + hasil_lembur
+#     print("Selamat anda mendapat upah lembur sebanyak : ", hasil_lembur)
+# else : 
+#     total_gaji = gaji + tunjangan
+#     print("Tetap semangat untuk lembur!")
+# print("Anda mendapatkan tunjangan sebanyak : ", tunjangan)
+# print("Total Gaji yang anda dapatkan adalah : ", total_gaji)
+
+# print("Soal nomor 2")
+# penghasilan_orang_tua = int(input("Masukkan penghasilan orang tua anda : "))
+# meteran_kwh = float(input("Masukkan jumlah KWH meteran pada rumah anda : "))
+# nilai = str(input("Masukkan nilai anda [a/b/c/d/e/f] : ")).strip().upper()
+
+# if penghasilan_orang_tua<=3000000 :
+#     if meteran_kwh<= 900:
+#         if nilai == "A" :
+#             print("Anda berhasil dan berhak mendapatkan beasiswa")
+#         elif nilai == "B":
+#             print("Anda berhasil dan berhak mendapatkan beasiswa")
+#         elif nilai == "C":
+#             print("Mohon maaf anda belum bisa mendapatkan beasiswa")
+#         else :
+#             print("Mohon maaf anda belum bisa mendapatkan beasiswa")
+#     else: 
+#         print("Mohon maaf anda belum bisa mendapatkan beasiswa")
+# else:
+#     print("Mohon maaf anda belum bisa mendapatkan beasiswa")
+
+print("Soal nomor 3")
+jumlah_bintang = int(input("masukkan tinggi segitiga bintang : "))
+for i in range(1, jumlah_bintang +1):
+    print((jumlah_bintang - i+1) * "*")
+            
+# print("Soal nomor 4")
+# mahasiswa =["Yellownita", "Ayres", "Adrian", "Yandex", "Jehes"]
+# jurusan = ["DKV", "IT", "BD", "FK", "FEB"]
+
+# print(list(zip(mahasiswa , jurusan)))

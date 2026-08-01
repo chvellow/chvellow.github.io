@@ -1,0 +1,1590 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+body{
+    /* font-family: "DM Serif Display", serif; */
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.museumbody{
+    background: conic-gradient(from 249.98deg at 50% 17.57%, #000000 0deg, #221E1E 144deg, #363131 154.8deg, #000000 360deg);
+}
+.card-body a{
+    text-decoration: none;
+}
+/* apeni b? */
+b{
+    font-size: 40px;  
+}
+.img-2{
+    max-width: 100px;
+    width: 650px;
+}
+.navbar {
+    font-family: "DM Serif Display", serif;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 100px rgba(148, 119, 51, 0.6);
+    border-bottom: 2px solid rgba(196, 155, 20, 0.164); /* Tambahkan garis bawah emas untuk efek */
+}
+.logo-name{
+    text-decoration: none;
+    color: #FFCF60;
+    font-size: 2rem;
+}
+.logo-name:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-link{
+    font-weight: 400;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.see-all a{
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: gold; /* Warna highlight */
+}
+.lni-menu-hamburger-1{
+    font-size: 1.5rem;
+}
+.lni-cross-circle{
+    font-size: 2rem;
+}
+/* Toggler Icon */
+.navbar-toggler {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.offcanvas-header .btn-close {
+    background-color: white; /* Membuat tombol close menjadi latar belakang putih */
+    border: 1px solid white; /* Jika ingin border putih */
+}
+.offcanvas {
+    z-index: 1050; /* Pastikan di atas elemen lain */
+}
+/* artikel */
+/* .container-article{
+/* Container utama */
+.container-article {
+    display: flex; /* Mengatur layout sebagai Flexbox */
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #D9D9D9; 
+    color: black; /* Warna teks */
+    padding: 0px; /* Tambahkan padding untuk ruang di dalam */
+    margin: 0px 12px 0px 12px;
+    height: 550px;
+}
+aside, .left-p{
+    width: 45%;
+    /* margin-left: 5rem; */
+    /* margin-left: 110px; */
+}
+/* Elemen teks di sebelah kiri */
+.left-p {
+    flex: 1 1 45%; 
+    text-align: left; 
+    order: 0;
+    margin: 5rem;
+}
+.left-p h2{
+    width: 90%;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 120%;
+    color: #000000;
+}
+.left-p h2, 
+.left-p p {
+    margin: 10px 0px; 
+    line-height: 1.5;
+}
+.left-p p{
+    width: 45%;
+}
+/* Tombol */
+.r-more {
+    background-color: #840E0E;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.r-more:hover {
+    background-color: #5C0B0B;
+}
+.right-img {
+    flex: 0 0 auto;
+    margin: 0px 0px 0px 0px;
+}
+.right-img img {
+    max-width: 600px;
+    height: auto;
+    display: block;
+}
+/* Kontainer untuk Flexbox */
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+/* Elemen kiri */
+.leftside {
+    text-align: left; 
+    font-size: 16px;
+}
+/* Elemen kanan */
+.rightside {
+    text-align: left; 
+    font-size: 16px;
+}
+/* card artikel */
+.container-card {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: space-between;
+    margin: 40px auto;
+    padding: 0 12px; 
+}
+.container-card-museum{
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: space-between;
+    margin: 1px 30px 10px 30px;
+    padding: 0 12px; 
+}
+.card-article {
+    background-color: #FFCF60;
+    flex: 0 0 calc(33.333% - 20px); 
+    box-sizing: border-box;
+}
+.card-text{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+.button-card-museum{
+    background-color: #7B0606;
+    color: #fdd77b;
+    display: inline-block;
+    width: 50%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    text-align: center;
+    height: 50px;
+}
+.card-body-pg a{
+    text-decoration: none;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.card-next{
+    color: #840E0E;
+    font-size: 20px;
+    text-align: center;
+}
+/* museum */
+.card-title-pg{
+    text-align: center;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 120%;
+    color: #7B0606;
+}
+.card-text-pg{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #7B0606;
+    text-align: center;
+    font-family: 'DM Serif Display';
+    margin-bottom: 0rem;
+    flex-grow: 1; 
+    
+}
+.button-museum-pg{
+    width: 50%; /* Lebar tombol 50% */
+    display: block;
+    margin: 0 auto; /* Memusatkan tombol */
+    padding: 10px;
+    background-color: #7b1f1f; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.button-museum-pg:hover {
+    background-color: #5a1414;
+    color: white;
+}
+.museum-card-page {
+    border-radius: 8px;
+    overflow: hidden;
+    border: none; /* Menghapus border */
+    box-shadow: none; /* Jika ada bayangan, hapus juga */
+}
+.museum-card-page img {
+    max-height: 1000px;
+    object-fit: cover;
+}
+.card-body-pg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    height: 350px;
+}
+.museum-card-page .card-body-pg {
+    padding: 15px;
+}
+.tagline {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family:'East Sea Dokdo'; 
+    margin: 12px 12px 12px 12px;
+    font-weight: 400;
+    background-color: #641111;
+    border: none;
+    color: #FFCF60;
+    height: 150px;
+    font-style: italic;
+    align-content: center;
+}
+.card-museum-pg{
+    background-color: white;
+    width: 400px;
+}
+.text-museum-pg{
+    color: #7B0606; 
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.h2-card-title{
+    color: #7B0606; 
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+}
+.container-museum {
+    flex-wrap: wrap; /* Agar item bisa turun ke baris baru */
+    gap: 1rem; /* Beri jarak antar-card */
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0px; 
+    gap: 50px; 
+    margin: 0px 12px 0px 12px;
+    font-family: "DM Serif Display", serif;
+}
+
+.card-museum-pg {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-museum-pg:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.card-museum-pg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card-content-museum-pg {
+    padding: 15px;
+    text-align: center;
+}
+.card-content-museum-pg h3 {
+    font-size: 1.5rem;
+    color: #800000;
+    margin: 10px 0;
+}
+
+.card-content-museum-pg p {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 0;
+}
+
+.btn-museum-pg {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #800000;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-museum-pg:hover {
+    background-color: #a00000;
+}
+.left-museum{
+    flex: 0 0 auto; /* Jangan biarkan gambar merenggang */
+    margin: 0px 0px 0px 0px;
+}
+.left-museum img {
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+aside, .right-museum{
+    width: 20%;
+}
+.right-museum{
+    flex: 1 1 45%;
+    text-align: left;
+    order: 0; 
+}
+.right-museum h2{
+    width: 90%;
+    font-size: 50px;
+    color: #FFCF60;
+}
+.right-museum h5{
+    font-size: 22px;
+}
+.container-museum, .left-museum img, .right-museum {
+    transition: all 0.3s ease-in-out;
+}
+
+.container-home{
+    display: flex;
+    justify-content: center;
+}
+.left-content-home{
+    /* background-color: #5C0B0B; */
+    width: 50%;
+    /* height: 550px; */
+    align-content: center;
+    padding-left: 7rem;
+}
+.p-index{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#home-explore{
+    background-color: #FFCF60;
+    height: 55px;
+    width: 205px;
+    border-radius:50px;
+    font-family: bold;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    -ms-border-radius:50px;
+    -o-border-radius:50px;
+    border: none;
+}
+.left-title{
+    font-size: 65px;
+   font-family: 'DM Serif Display';
+    background: linear-gradient(106.04deg, #FFB304 2.58%, #F4EAD3 54.91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.right-content-home{
+    width: 50%;
+    align-content: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.images{
+    padding: 3rem;
+    gap: 1rem;
+    display: flex;
+}
+.one{
+    height: 450px;
+    width: 290px;
+    padding-top: 4rem;
+}
+.two{
+    height: 320px;
+    width: 210px;
+    /* margin-bottom: 2rem; */
+    align-self: flex-end;
+}
+.three{
+    height: 158px;
+    width: 210px;
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+.wrapperhp2{
+    background-color: #FFCF60;
+}
+.card-img-top {
+    max-width: 100%; /* Pastikan gambar memenuhi lebar card */
+    height: 200px; /* Atur tinggi sesuai kebutuhan */
+    object-fit: cover; 
+}
+.card-img-hpg{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    max-width: auto;
+    max-height: 270px;
+}
+.card-title{
+    color: #000000;
+    font-size: 22px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    height: 60px;
+  
+}
+.button-link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 22px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.card-text-index{
+    font-family: 'DM Serif Display';
+    font-size: 15px;
+    text-align: left;
+    color: #000;
+}
+.event-header {
+    border-left: 8px solid #000000;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #800000;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+  }
+.event-card{
+    background-color: rgba(255, 222, 173, 0);
+    border: none;
+}
+.date {
+    display: flex; /* Mengaktifkan Flexbox */
+    flex-direction: column; /* Atur elemen secara vertikal */
+    justify-content: center; /* Pusatkan secara vertikal */
+    align-items: center; /* Pusatkan secara horizontal */
+    text-align: center;
+    background-color: #7B0606;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 140px;
+    width: 100%; 
+    font-size: 20px;
+}
+.get-ticket {
+    background-color: #641111;
+    color: #FFB200;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    height: 40px;
+    width: 85px;
+}
+.get-ticket:hover {
+    background-color: #FFB200;
+    color: #ad1d1d;
+    font-weight: 500;
+  }
+
+.see-all {
+    color: #000; 
+    font-size: 1.5rem; 
+    text-decoration: none;
+    font-weight: 700;
+  }
+.see-all-link:hover{
+    color: #5C0B0B;
+}
+.museum-title-home{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+
+}
+
+  .see-all {
+    text-align: right;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+  }
+  .see-all a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .see-all a:hover {
+    text-decoration: underline;
+  }
+
+
+/* Container Styling */
+.gallery-container {
+    text-align: center;
+    color: #FFCF60;
+    padding: 20px;
+    background-color: #000; /* Black background */
+    font-family: 'Arial', sans-serif;
+  }
+  /* Grid Styling */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 3 equal columns */
+    gap: 15px;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  .gallery-item {
+    position: relative;
+  }
+  .gallery-item.large {
+    grid-column: span 2; /* Lebar 2 kolom */
+    grid-row: span 2; /* Tinggi 2 baris */
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  
+  .gallery-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  /* Carousel background */
+.bg-gold {
+    background: linear-gradient(266.59deg, #FFCF60 0%, #D9B35D 59.15%, #FFE8B3 85.53%, #EFD87D 97.19%);
+    color: black;
+  }
+  .getticket{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+  }
+ 
+  /* Custom carousel controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: black;
+  }
+  .line-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .line-with-text::before,
+  .line-with-text::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ccc;
+    margin: 0 10px;
+  }
+  
+  .line-with-text span {
+    text-align: center;
+    color: #FFB200;
+    font-weight: 500;
+    font-size: 16px; /* Ukuran teks */
+  }
+  
+  /* Footer */
+footer {
+    background-color: #230101;
+    font-family: 'DM Serif Display';
+  }
+  
+.text-footer{
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFCF60;
+}
+ul{
+    list-style-type: none;
+}
+.card-carousel{
+    background-color: #342714;
+}
+.text-center{
+    color: #ffffff;
+}
+.date-museum{
+    background-color: white;
+    color: #000;
+    height: max-content;
+}
+.title-card-museum{
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.view-details{
+    text-decoration: none;
+    color: #ffffff;
+}
+.view-details:hover{
+    color: white;
+}
+.btn-ticket{
+    background-color: #FFCF60;
+    border: none;
+    height: 40px;
+    width: 150px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+.date-box {
+    padding-right: 10px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .time-box {
+    height: 50px;
+    background-color: #794D4D;
+  }
+  
+  .bg-time {
+    color: #ffffff;
+    font-weight: bold;
+   font-size: 20px;
+}
+/* about Us */
+.fairy img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+  }
+.container-about{
+    font-family: 'DM Serif Display';
+    text-align: left;
+    margin: 5rem;
+}
+.breadcrumb {
+    background-color: white; /* Latar belakang putih */
+    padding: 10px 15px; /* Memberikan padding untuk ruang */
+    border-radius: 5px; /* Membuat sudut membulat */
+    font-size: 18px; /* Ukuran font lebih besar */
+    color: black; /* Warna teks */
+}
+
+.breadcrumb-item a {
+    color: rgb(255, 255, 255); /* Warna link */
+    text-decoration: none; /* Menghapus garis bawah */
+}
+
+.breadcrumb-item a:hover {
+    color: gray; /* Warna teks saat hover */
+}
+
+.breadcrumb-item.active {
+    color: rgb(92, 74, 13); 
+}
+
+.aboutus-text{
+    color: #000;
+    text-align: left;
+    /* margin-left: 3rem; */
+    align-content: center;
+    justify-content: center;
+}
+
+.aboutus-text h4{
+    text-align: left;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+    color: #000000;
+}
+.aboutus-text h3{
+    text-align: left;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 120%;
+    color: #000000;
+}
+.aboutus-text h5{
+    text-align: left;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-size: 16px;
+    /* line-height: 120%; */
+    color: #000000;
+    /* font-weight: 300; */
+}
+.aboutus-text ul li{
+    font-family: 'DM Serif Display';
+    font-weight: 500;
+    line-height: 120%;
+    color: #000000;
+}
+.aboutus-text a{
+    justify-content: left;
+    font-weight: bold;
+}
+.about-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin:20px 50px;
+    align-items: center;
+}
+
+.about-list li {
+    flex: 1 1 50%; /* Setiap item menggunakan 50% dari lebar container */
+    margin-bottom: 10px; /* Spasi antar item */
+  
+}
+
+.aboutus-text ul li{
+    text-align: left;
+    list-style-type: circle;
+    justify-content: space-between;
+   
+}
+
+.container-about p{
+    font-size: 45px;
+    color: #000;
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    flex: 1;
+}
+.about-image {
+    /* position: relative; */
+    margin-top: -100px;
+    /* margin-left: 1rem; */
+    justify-content: center;
+}
+.hero-section {
+    background: url('/img/backgroundaboutus.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 15px;
+    height: 1150px;
+  }
+  .hero-section h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+  .hero-section p {
+    font-size: 1.5rem;
+  }
+  .breadcrumb {
+    background: transparent;
+    padding-left: 0;
+  }
+  .about-section {
+    background-color: #fdd77b;
+    padding: 50px 15px;
+    height: 655px;
+    margin-top: 5rem;
+  }
+  .about-section h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .about-section ul {
+    padding-left: 0;
+    list-style: none;
+  }
+  .about-section ul li {
+    font-size: 1rem;
+  }
+  .btn-custom {
+    display: inline-block;
+    padding: 20px 90px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.btn-custom:hover {
+    background-color: black; /* Warna latar saat hover */
+    color: white; /* Warna teks saat hover */
+    text-decoration: none;
+}
+
+
+  .image-slider {
+    position: relative;
+    width: 95%;
+    height: 600px;
+    overflow: hidden;
+    /* margin-left: 2rem; */
+    align-content: center;
+  }
+  
+  .image-slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    animation: fade 9s infinite;
+   
+  }
+  
+  .image-slider img:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .image-slider img:nth-child(2) {
+    animation-delay: 3s;
+  }
+  
+  .image-slider img:nth-child(3) {
+    animation-delay: 6s;
+  }
+  /* About Container */
+.about-container {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* About Values Section */
+.about-values-section {
+    padding: 50px 20px;
+    background-color: rgb(0, 0, 0);
+ 
+    align-content: center;
+}
+
+/* About Values Text */
+.about-values-text {
+    max-width: 600px;
+       margin: 10px 50px 10px 50px;
+}
+
+.about-subtitle {
+
+    color: #ffcf60;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.about-title {
+    font-family: 'Playfair Display', serif;
+    color: #ffcf60;
+    margin-bottom: 20px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 120%;
+/* or 73px */
+
+color: #FFB304;
+
+
+}
+
+.about-description {
+    color: #fff;
+    margin-bottom: 20px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* or 37px */
+
+color: #FFFFFF;
+
+
+}
+
+/* About Values Stats */
+.about-values-stats {
+    display: flex;
+    flex-direction: row; /* Membuat elemen statistik sejajar secara horizontal */
+    justify-content: space-around;
+    align-items: center; /* Memastikan elemen sejajar vertikal */
+}
+
+
+.about-stat {
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Susunan vertikal (angka di atas, teks di bawah) */
+    justify-content: center; /* Memastikan angka dan teks berada di tengah */
+    align-items: center;
+    height: 200px; /* Ketinggian tetap untuk memastikan proporsi */
+}
+
+.about-stat-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFB304;
+    margin: 0; 
+}
+.about-stat-label {
+    font-size: 14px;
+    color: #fff;
+    margin: 0;
+}
+/* About Explore Section */
+.about-explore-section {
+    color: #000;
+    text-align: center;
+    padding: 50px 20px;
+    background: url(/img/midd4.png);
+    height: 400px;
+    align-content: center;
+}
+.about-explore-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.about-explore-title {
+margin-bottom: 10px;
+font-family: 'DM Serif Display';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 120%;
+align-items: center;
+text-align: center;
+color: #000000;
+text-shadow: 0px 4px 100px #FFB200;
+
+}
+
+.about-explore-description {
+    font-size: 16px;
+    margin-bottom: 30px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    align-items: center;
+text-align: center;
+}
+
+.about-explore-button {
+    display: inline-block;
+    padding: 10px 50px;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.about-explore-button:hover {
+    background-color: black;
+    color: #fff;
+}
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    33.33% {
+      opacity: 1;
+    }
+    43.33% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+/* Responsivitas */
+@media (max-width: 1440px) {
+    aside, .left-p{
+        width: 40%;
+    }
+}
+@media (max-width: 847px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+      }
+      .gallery-item.large {
+        grid-column: span 2; /* Gambar besar memenuhi 2 kolom */
+      }
+    .container-museum, .left-museum img, .right-museum {
+        transition: all 0.3s ease-in-out;
+    }
+    .right-img {
+        flex: 1 1 45%; /* Lebar fleksibel, minimum 45% */
+        text-align: right;
+        order: -1; /* Default gambar tetap di atas */
+    }
+    .right-img img {
+        max-width: 100%; /* Gambar fleksibel memenuhi kontainer */
+        height: auto; /* Jaga aspek rasio gambar */
+        display: block;
+    }
+    .container-article {
+        flex-direction: column; /* Ubah tata letak menjadi kolom */
+    }
+    .right-img {
+        order: 0; 
+        /* max-width: 100%; */
+        /* max-height:50%; */
+        width: 100%;/* Gambar tetap di posisi default (atas) */
+    }
+    aside, .left-p{
+        width: 80%;
+        margin:0% 0% 8% 0%;
+    }
+    .left-p {
+        order: 1; /* Memindahkan elemen teks ke bawah gambar */
+
+    }
+    .r-more {
+        width: 100%;
+        
+}
+.left-p h2{
+    font-size: 25px;
+    width: 100%;
+}
+
+/* Elemen kiri */
+.leftside {
+    text-align: left; /* Teks rata kiri */
+    font-size: 16px;
+}
+/* Elemen kanan */
+.rightside {
+    text-align: right; /* Teks rata kanan */
+    font-size: 16px;
+}
+.card-article {
+    flex: 0 0 calc(50% - 20px); /* Dua card per baris */
+}
+.left-museum img {
+    max-width: 100%; /* Gambar disesuaikan dengan layar */
+    height: 300px;
+}
+aside, .right-museum{
+    text-align: center;
+}
+.right-museum, .left-museum {
+    width: 100%; /* Elemen mengambil lebar penuh */
+}
+.right-museum h2{
+    font-size: 35px;
+    /* text-align: center; */
+}
+.right-museum h5{
+    font-size: 15px;
+    /* text-align: center; */
+}
+.container-museum {
+    flex-direction: column; /* Mengubah elemen menjadi kolom */
+    align-items: center; /* Tengahkan secara horizontal */
+    text-align: center; /* Teks rata tengah */
+    margin: 0px 0px 0px 0px;
+}
+.left-title{
+    font-size: 42px;
+}
+.p-index{
+    font-size: 15px;
+}
+#home-explore{
+    width: 150px;
+    height: 40px;
+}
+.one{
+    padding-top: 2rem;
+}
+.two{
+    display: none;
+}
+.three{
+    display: none;
+}
+}
+@media (max-width: 1024px) {
+    .container-museum {
+        gap: 20px; /* Kurangi jarak antar elemen */
+      
+    }
+    .left-museum img {
+        max-width: 80%; /* Jangan terlalu kecil */
+        margin: 0 auto; /* Pastikan gambar tetap di tengah */
+    }
+    .left-museum img {
+        max-width: 100%; /* Kurangi ukuran gambar */
+    }
+
+    .right-museum {
+        width: 70%; /* Kurangi lebar elemen kanan */
+    }
+
+    .right-museum h2 {
+        font-size: 40px; /* Kurangi ukuran teks */
+    }
+
+    .right-museum h5 {
+        font-size: 18px; /* Kurangi ukuran teks */
+    }
+}
+
+@media (max-width: 767px) {
+    .container-about {
+        margin: 1.5rem;
+    }
+    .about-section {
+        background-color: #fdd77b;
+        padding: 50px 15px;
+        height: 700px;
+        margin-top: 1rem;
+      }
+     
+    .aboutus-text ul li {
+        flex: 1 1 100%; /* Ubah elemen ul menjadi 100% */
+    }
+    .fairy{
+        display: none;
+    }
+   
+    .about-stat {
+        height: auto;
+    }
+
+    .about-stat-number {
+        font-size: 50px;
+    }
+
+    .about-values-section {
+        padding: 20px;
+       bottom: 50rem;
+    }
+
+    .about-title {
+        font-size: 35px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .about-explore-title {
+        font-size: 30px;
+    }
+
+    .about-explore-description {
+        font-size: 14px;
+    }
+
+    .btn-custom {
+        padding: 15px 50px;
+    }
+
+    .image-slider {
+        height: 300px; /* Kurangi tinggi slider lebih kecil */
+    }
+
+    .image-slider img {
+        height: 100%; /* Pastikan gambar menyesuaikan tinggi slider */
+    }
+
+    .hero-section {
+        background-position: center; 
+        background-size: cover;
+
+    }
+    .hero-section .container {
+        flex-direction: column; /* Susunan menjadi kolom untuk elemen container */
+        text-align: center; /* Semua elemen teks dan gambar akan berada di tengah */
+    }
+
+    .fairy {
+        margin-bottom: 20px; /* Beri jarak antara gambar dan teks */
+    }
+
+    .fairy img {
+        width: 200px; /* Sesuaikan ukuran gambar untuk layar kecil */
+        height: auto; /* Pertahankan proporsi gambar */
+        margin: 0 auto; /* Pusatkan gambar */
+    }
+
+    .container-about {
+        margin: 0 auto; /* Pusatkan elemen teks */
+        padding: 0 20px; /* Tambahkan padding untuk teks agar lebih rapi */
+    }
+
+    .container-about p {
+        font-size: 1.2rem; /* Sesuaikan ukuran teks untuk layar kecil */
+    }
+
+    .breadcrumb {
+        font-size: 14px; /* Perkecil ukuran breadcrumb */
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-values-stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-values-text {
+        text-align: center;
+    }
+
+    .about-title, .about-description {
+        max-width: 100%;
+    }
+    .get-ticket{
+        width: 150px;
+        margin-bottom: 2rem;
+        border-radius: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        -ms-border-radius: 0;
+        -o-border-radius: 0;
+
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+}
+.container-article {
+    flex-direction: column; /* Ubah arah Flexbox ke kolom */
+    align-items: center; /* Pusatkan elemen di tengah */
+    height: auto; /* Sesuaikan tinggi kontainer */
+    padding: 20px; /* Tambahkan ruang di sekitar elemen */
+}
+
+.left-p, .right-img {
+    width: 100%; /* Elemen teks dan gambar mengambil lebar penuh */
+    margin: 10px 0; /* Beri jarak antar elemen */
+    text-align: center; /* Teks di tengah */
+}
+
+.left-p h2 {
+    font-size: 30px; /* Kurangi ukuran font untuk layar kecil */
+}
+
+.left-p p {
+    width: 90%; /* Kurangi lebar paragraf */
+    margin: 0 auto; /* Pusatkan paragraf */
+}
+
+.right-img img {
+    width: 100%; /* Gambar memenuhi lebar kontainer */
+    height: auto; /* Jaga rasio gambar */
+}
+
+}
+@media (max-width: 480px) {
+    .about-section {
+        background-color: #fdd77b;
+        padding: 50px 15px;
+        height: 650px;
+        margin-top: 5rem;
+      }
+    .container-about {
+        margin: 1rem;
+    }
+
+    .hero-section {
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .hero-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
+    .breadcrumb {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .about-values-section {
+        padding: 15px;
+    }
+
+    .about-stat-number {
+        font-size: 40px;
+    }
+
+    .about-title {
+        font-size: 25px;
+    }
+
+    .btn-custom {
+        padding: 10px 30px;
+    }
+
+    .image-slider {
+        height: 200px; /* Sesuaikan tinggi slider */
+    }
+
+    .image-slider img {
+        object-fit: contain; /* Pastikan gambar sepenuhnya terlihat */
+    }
+
+    
+
+    .about-explore-title {
+        font-size: 20px;
+    }
+
+    .about-explore-description {
+        font-size: 14px;
+    }
+    .card-body img{
+        display: none;
+    }
+    .btn-ticket{
+        width: 90px;
+        font-weight: 300;
+        font-size: 12px;
+    }
+    .gallery-grid {
+        grid-template-columns: 1fr; /* 1 kolom */
+      }
+      .gallery-item.large {
+        grid-column: span 1; /* Gambar besar memenuhi 1 kolom */
+      }
+    .card-article {
+        flex: 0 0 100%; /* Satu card per baris */
+    }
+    .right-museum h2{
+        font-size: 25px; 
+        /* text-align: center; */
+    }
+    .right-museum h5{
+        font-size: 15px;
+        /* text-align: center; */
+    }
+    .two, .three{
+        display: none;
+    }
+    .left-content-home{
+        padding-left: 2rem;
+        margin-top: 0rem;
+        padding-top: 0rem;
+        gap: 1rem;
+    }
+    .one{
+       height: 250px;
+       margin-top: 0rem;
+       padding-right: 2rem;
+       margin-bottom: 2rem;
+    }
+    .left-title{
+        font-size: 26px;
+        columns: 1;
+    }
+    .p-index{
+        font-size: 10px;
+        /* columns: 1; */
+    }
+    .images{
+        padding: 0rem;
+    }
+    #home-explore{
+        width: 120px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
+.fairy img, 
+.image-slider img {
+    max-width: 100%; /* Pastikan gambar tidak melampaui container */
+    height: auto; /* Jaga proporsi gambar */
+}
+
+.hero-section {
+    background-size: cover; /* Latar belakang memenuhi layar */
+    background-position: center; /* Latar belakang berada di tengah */
+}
+
+.image-slider img {
+    object-fit: cover; /* Pastikan gambar memenuhi area slider */
+}
+
+.about-image img {
+    width: 100%; /* Pastikan gambar menggunakan lebar penuh container */
+    height: auto; /* Jaga proporsi */
+}
+
+/* Teks Responsif */
+
+
+
+.aboutus-text h5,
+.about-title,
+.about-description {
+    font-size: clamp(1rem, 2vw, 3rem); /* Skala font berdasarkan lebar layar */
+}
+.formulir input{
+    background-color: #fdd77b;
+    border: solid 1px ;
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.formulir .package{
+    height: 50px;
+}
+.formulir .special{
+    height: 100px; 
+}
+
+.aboutus-text button:hover{
+    background-color: #000;
+    color: white;
+    border: solid 1px;
+}
+.container-artist-museum{
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    height: 600px;
+    text-align: center;
+    align-content: center;
+    color: #FFB200;
+    font-weight: 500;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+}
+.container-artist-museum h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+
+}
+.container-artist-museum p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+   
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum</title>
+    <link rel="stylesheet" href="https://cdn.lineicons.com/5.0/lineicons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.css">
+</head>
+<body class="museumbody">
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg py-4 py-lg-0 shadow-l">
+        <div class="container container-fluid px-4">
+            <!-- Logo -->
+            <a class="logo-name" href="./index.html">
+                <img class="img-2" src="/img/logo.png" alt="Logo Gallery Art">
+                Gallery Art
+            </a>
+
+            <!-- Toggler for mobile -->
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#top-navbar" aria-controls="top-navbar">
+                <i class="lni lni-menu-hamburger-1"></i>
+            </button>
+
+            <!-- Navbar links for desktop -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-lg-auto p-4 p-lg-0">
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" href="./event.html">Event</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" href="./museum.html" style="color: #FFCF60;">Museum</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" href="./article.html">Article</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" href="./aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item px-3 px-lg-0 py-1 py-lg-4">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Offcanvas for mobile -->
+            <div class="offcanvas offcanvas-end custom-offcanvas" style="background-color: black;" tabindex="-1" id="top-navbar" aria-labelledby="top-navbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./event.html">Event</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./museum.html">Museum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./article.html">Article</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./aboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- top museum -->
+    <div class="container-museum">
+        <aside class="left-museum col-lg-6 ">
+            <img class="img-2 " src="/img/nekaartmuseum2.png" alt="Article Image">
+        </aside>
+        <aside class="right-museum">
+            <h2>The One Of Museums In Bali</h2>
+            <h5>Welcome to Gallery Art – your gateway to Bali’s cultural and artistic heritage. Dive into the soul of Bali through our captivating exhibitions and stunning artworks.</h5>
+        </aside>
+    </div>
+    
+    <!-- Tagline -->
+    <div class="tagline">
+        It's About You, It's About The View
+    </div>
+    <!-- Museum Cards -->
+    <div class="container mb-4">
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card museum-card-page">
+                    <img src="/img/museum-pasifika-museum.png"  alt="Museum Pasifika">
+                    <div class="card-body-pg">
+                        <h5 class="card-title-pg">Museum Pasifika</h5>
+                        <p class="card-text-pg">Museum Pasifika is a renowned art museum located in Bali, Indonesia, showcasing a diverse collection of artworks from across the Asia-Pacific region.</p>
+                        <a href="./mus-artist.html" class="button-museum-pg">View more</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="card museum-card-page">
+                    <img src="/img/museum-nekaart-museum.png"  alt="Neka Art Museum">
+                    <div class="card-body-pg">
+                        <h5 class="card-title-pg">Neka Art Museum</h5>
+                        <p class="card-text-pg">The Neka Art Museum, located in Ubud, Bali, is a prestigious gallery showcasing traditional and contemporary Balinese art.</p>
+                        <a href="./mus-artist.html" class="button-museum-pg">View more</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card museum-card-page">
+                    <img src="/img/museum-renaisannce-museum.png"  alt="Neka Art Museum">
+                    <div class="card-body-pg">
+                        <h5 class="card-title-pg">Blanco Renaissance Museum</h5>
+                        <p class="card-text-pg">The Blanco Renaissance Museum, located in Ubud, Bali, is the former home and studio of Spanish-Filipino artist Don Antonio Blanco.</p>
+                        <a href="./mus-artist.html" class="button-museum-pg">View more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card museum-card-page">
+                    <img src="/img/museum-bali-museum.png" alt="Neka Art Museum">
+                    <div class="card-body-pg">
+                        <h5 class="card-title-pg">Bali Museum</h5>
+                        <p class="card-text-pg">The Bali Museum, situated in Denpasar, is a historical and cultural museum that offers an in-depth look into Bali's past.</p> 
+                        <a href="./mus-artist.html" class="button-museum-pg">View more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section: Footer -->
+    <footer class="text-light py-5">
+        <div class="container text-center">
+            <div class="row m-2">
+                <div class="col-lg-4 col-sm-6 text-footer">
+                    <ul>
+                        <li>Information</li>
+                        <li>ctbali@ctb.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-footer">
+                    <ul>
+                        <li>Phone Number</li>
+                        <li>+6235 6266 626</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-12 text-footer">
+                    <ul>
+                        <li>Social Media</li>
+                        <li>Instagram</li>
+                    </ul>
+                </div>
+    
+                <div class="w-100 d-none d-md-block"></div>
+    
+                <div class="col-lg-12 col-sm-12 mb-5 mt-5">
+                    <img src="/img/logosfooter.png" style="max-width: 250px;" alt="Logo Footer">
+                </div>
+    
+                <div class="col-lg-4 col-sm-12 text-footer">
+                    <ul>
+                        <li>Made by</li>
+                        <li>Yellownitakrdwz</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-footer">
+                    <ul>
+                        <li>Copyright</li>
+                        <li>All rights reserved 2024</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-footer">
+                    <ul>
+                        <li>Direction</li>
+                        <li>Jl. Selalu ada No.99x</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
